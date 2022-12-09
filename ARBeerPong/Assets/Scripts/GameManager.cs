@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public AudioSource _buttonAudioSource;
+    public AudioClip buttonClickAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +16,12 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void ButtonAudio()
+    {
+        _buttonAudioSource.clip = buttonClickAudio;
+        _buttonAudioSource.Play();
     }
 
     public void Quit()
