@@ -7,14 +7,16 @@ public class ThrowBall : MonoBehaviour
     [SerializeField] private Camera mainCamera;
     [SerializeField] private GameObject blubberBallPrefab;
     [SerializeField] private float throwForce = 2.0f;
+    private Touch touchPoint;
 
     private void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.touchCount>0)
         {
+            touchPoint = Input.GetTouch(0);
             //Debug.Log(Input.mousePosition);
-            Vector3 mousePos = Input.mousePosition;
-            Vector3 worldMousePos = mainCamera.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, mainCamera.nearClipPlane));
+           // Vector3 mousePos = Input.mousePosition;
+            Vector3 worldMousePos = mainCamera.ScreenToWorldPoint(new Vector3(touchPoint.position.x, touchPoint.position.y, mainCamera.nearClipPlane));
             Debug.Log("World Mouse Position: " + worldMousePos);
             Vector3 directionVector = worldMousePos - mainCamera.transform.position;
             directionVector = new Vector3(directionVector.x, directionVector.y, 0f).normalized;
