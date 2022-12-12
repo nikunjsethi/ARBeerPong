@@ -19,6 +19,7 @@ public class TargetPlacement : MonoBehaviour
     private Pose _hitPose;
     private List<ARRaycastHit> _hits = new List<ARRaycastHit>();
     private Vector2 _ray;
+    private Vector3 _cupsPose;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,7 +50,9 @@ public class TargetPlacement : MonoBehaviour
 
     public void BeerCupInstantiator()
     {
-        _object.transform.position = transform.position;
+        _cupsPose = transform.position;
+        _cupsPose.y = _cupsPose.y + .1f;
+        _object.transform.position = _cupsPose;
         _object.SetActive(true);
         this.gameObject.SetActive(false);
         
