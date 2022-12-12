@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
 {
     public AudioSource _buttonAudioSource;
     public AudioClip buttonClickAudio;
+    [SerializeField] AudioSource _collisionAudioSource;
+    [SerializeField] AudioClip collisionAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,11 @@ public class GameManager : MonoBehaviour
         _buttonAudioSource.Play();
     }
 
+    public void CollisionAudio()
+    {
+        _collisionAudioSource.clip = collisionAudio;
+        _collisionAudioSource.Play();
+    }
     public void Quit()
     {
         Application.Quit();
