@@ -348,25 +348,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1436685678}
     m_Modifications:
-    - target: {fileID: 2481286903483886988, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.7937722
-      objectReference: {fileID: 0}
-    - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.7937722
-      objectReference: {fileID: 0}
-    - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.7937722
       objectReference: {fileID: 0}
     - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -412,42 +396,74 @@ PrefabInstance:
       propertyPath: scoreUI
       value: 
       objectReference: {fileID: 295444641}
+    - target: {fileID: 4222364191246351175, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
     - target: {fileID: 4845266778347896657, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
       propertyPath: scoreUI
       value: 
       objectReference: {fileID: 295444641}
+    - target: {fileID: 4845266778347896657, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
     - target: {fileID: 6347338555624680285, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
       propertyPath: scoreUI
       value: 
       objectReference: {fileID: 295444641}
+    - target: {fileID: 6347338555624680285, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
     - target: {fileID: 7101190700854835646, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
       propertyPath: scoreUI
       value: 
       objectReference: {fileID: 295444641}
+    - target: {fileID: 7101190700854835646, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
     - target: {fileID: 7101190701284804936, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
       propertyPath: scoreUI
       value: 
       objectReference: {fileID: 295444641}
+    - target: {fileID: 7101190701284804936, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
     - target: {fileID: 7101190701745613911, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
       propertyPath: scoreUI
       value: 
       objectReference: {fileID: 295444641}
+    - target: {fileID: 7101190701745613911, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
     - target: {fileID: 7101190702050680559, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
       propertyPath: scoreUI
       value: 
       objectReference: {fileID: 295444641}
+    - target: {fileID: 7101190702050680559, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
     - target: {fileID: 7101190702257740074, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
       propertyPath: scoreUI
       value: 
       objectReference: {fileID: 295444641}
-    - target: {fileID: 7101190702257740113, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 7101190702257740074, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
     - target: {fileID: 7101190702591473232, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
       propertyPath: scoreUI
       value: 
       objectReference: {fileID: 295444641}
+    - target: {fileID: 7101190702591473232, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
     - target: {fileID: 7202793570533765271, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
       propertyPath: m_Name
       value: Cups
@@ -456,6 +472,10 @@ PrefabInstance:
       propertyPath: scoreUI
       value: 
       objectReference: {fileID: 295444641}
+    - target: {fileID: 8376391047265568346, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
 --- !u!4 &301692061 stripped
@@ -1857,6 +1877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _ball: {fileID: 1626934521587989}
+  _newBall: {fileID: 0}
 --- !u!1 &1691698420
 GameObject:
   m_ObjectHideFlags: 0

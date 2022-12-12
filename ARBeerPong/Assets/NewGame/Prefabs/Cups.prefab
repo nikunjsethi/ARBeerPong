@@ -111,6 +111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f617ed815b22de458d660433b245fee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _ballManager: {fileID: 0}
+  scoreUI: {fileID: 0}
 --- !u!54 &2399931865232117107
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1398,6 +1400,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f617ed815b22de458d660433b245fee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _ballManager: {fileID: 0}
+  scoreUI: {fileID: 0}
 --- !u!54 &7747688060459309083
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1525,6 +1529,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f617ed815b22de458d660433b245fee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _ballManager: {fileID: 0}
+  scoreUI: {fileID: 0}
 --- !u!54 &6842022964221674404
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1652,6 +1658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f617ed815b22de458d660433b245fee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _ballManager: {fileID: 0}
+  scoreUI: {fileID: 0}
 --- !u!54 &6105655150199831171
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1779,6 +1787,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f617ed815b22de458d660433b245fee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _ballManager: {fileID: 0}
+  scoreUI: {fileID: 0}
 --- !u!54 &7101190700854835647
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1906,6 +1916,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f617ed815b22de458d660433b245fee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _ballManager: {fileID: 0}
+  scoreUI: {fileID: 0}
 --- !u!54 &7101190701745613908
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2033,6 +2045,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f617ed815b22de458d660433b245fee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _ballManager: {fileID: 0}
+  scoreUI: {fileID: 0}
 --- !u!54 &7101190702050680556
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2160,6 +2174,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f617ed815b22de458d660433b245fee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _ballManager: {fileID: 0}
+  scoreUI: {fileID: 0}
 --- !u!54 &7101190702257740075
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2287,6 +2303,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f617ed815b22de458d660433b245fee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _ballManager: {fileID: 0}
+  scoreUI: {fileID: 0}
 --- !u!54 &7101190702591473233
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2328,7 +2346,7 @@ Transform:
   m_GameObject: {fileID: 7202793570533765271}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0, y: 0.14, z: -7.5}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.7937722, y: 1.7937722, z: 1.7937722}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7646701915099096834}

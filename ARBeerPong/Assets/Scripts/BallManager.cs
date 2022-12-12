@@ -5,7 +5,7 @@ using UnityEngine;
 public class BallManager : MonoBehaviour
 {
     [SerializeField] private GameObject _ball;
-    private GameObject _newBall;
+    public GameObject _newBall;
     public void SpawnBall()
     {
         Invoke("CreateBall", 2f);
