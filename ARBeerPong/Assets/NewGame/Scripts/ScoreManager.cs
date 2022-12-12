@@ -12,10 +12,9 @@ public class ScoreManager : MonoBehaviour
 	{
 		// Nikunj Add Score Here
 		FindObjectOfType<AudioManager>().Play("HitInside");
-		Destroy(this.transform.parent.gameObject);
+		Destroy(this.transform.parent.gameObject,1.5f);
 		scoreData++;
 		scoreUI.text = "Score : "+scoreData.ToString();
 		Destroy(_ballManager._newBall.gameObject);
-
 	}
 }
