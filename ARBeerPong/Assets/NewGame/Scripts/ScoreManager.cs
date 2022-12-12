@@ -14,7 +14,7 @@ public class ScoreManager : MonoBehaviour
 		FindObjectOfType<AudioManager>().Play("HitInside");
 		Destroy(this.transform.parent.gameObject);
 		scoreData++;
-		scoreUI.text = scoreData.ToString();
+		scoreUI.text = "Score : "+scoreData.ToString();
 
 	}
 }
