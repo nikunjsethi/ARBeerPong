@@ -60,3 +60,5 @@ crashlytics-build.properties
 
 ARBeerPong/Library/
 ARBeerPong/Logs/
+ARBeerPong/obj/
+ARBeerPong/test_BackUpThisFolder_ButDontShipItWithYourGame/
