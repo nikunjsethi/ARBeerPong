@@ -1,22 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public AudioSource _buttonAudioSource;
     public AudioClip buttonClickAudio;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void ButtonAudio()
     {
@@ -24,6 +14,10 @@ public class GameManager : MonoBehaviour
         _buttonAudioSource.Play();
     }
 
+    public void RestartScene()
+    {
+        SceneManager.LoadScene(1);
+    }
     public void Quit()
     {
         Application.Quit();
