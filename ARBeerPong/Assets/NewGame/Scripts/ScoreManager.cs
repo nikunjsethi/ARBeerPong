@@ -17,6 +17,7 @@ public class ScoreManager : MonoBehaviour
 
     private void Start()
     {
+		scoreUI.enabled = true;
 		scoreData = 0;
 		scoreUI.text = "Score : " + scoreData.ToString();
 	}
