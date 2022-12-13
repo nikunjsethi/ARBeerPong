@@ -6,6 +6,7 @@ using TMPro;
 public class ScoreManager : MonoBehaviour
 {
 	public BallManager _ballManager;
+	public Timer _timer;
 	static float scoreData;
 	static float cupsDown;
 	[SerializeField] TextMeshProUGUI scoreUI;
@@ -17,10 +18,18 @@ public class ScoreManager : MonoBehaviour
 
     private void Start()
     {
-		scoreUI.enabled = true;
 		scoreData = 0;
 		scoreUI.text = "Score : " + scoreData.ToString();
 	}
+
+    private void Update()
+    {
+		if(_timer.timeOver==true)
+        {
+			StartCoroutine(LoseUI());
+        }
+    }
+
     void OnTriggerEnter(Collider other)
 	{
 		// Nikunj Add Score Here
@@ -33,7 +42,7 @@ public class ScoreManager : MonoBehaviour
 
 		if(cupsDown>=2)
         {
-            StartCoroutine(ChangeUI());
+            StartCoroutine(WinUI());
             //for (int i = 0; i < arCamerasToDisable.Length; i++)
             //    arCamerasToDisable[i].SetActive(false);
             //mainCanvas.SetActive(false);
@@ -44,14 +53,27 @@ public class ScoreManager : MonoBehaviour
         }
 	}
 
-	IEnumerator ChangeUI()
+
+	IEnumerator WinUI()
     {
-		yield return new WaitForSeconds(0f);
+		yield return new WaitForSeconds(1.4f);
 		for (int i = 0; i < arCamerasToDisable.Length; i++)
 			arCamerasToDisable[i].SetActive(false);
 		mainCanvas.SetActive(false);
 		uiCamera.SetActive(true);
 		winCanvas.SetActive(true);
+		cupsDown = 0;
+		scoreData = 0;
+	}
+
+	IEnumerator LoseUI()
+	{
+		yield return new WaitForSeconds(0);
+		for (int i = 0; i < arCamerasToDisable.Length; i++)
+			arCamerasToDisable[i].SetActive(false);
+		mainCanvas.SetActive(false);
+		uiCamera.SetActive(true);
+		loseCanvas.SetActive(true);
 		cupsDown = 0;
 		scoreData = 0;
 	}
