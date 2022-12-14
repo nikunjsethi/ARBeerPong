@@ -50,9 +50,7 @@ public class TargetPlacement : MonoBehaviour
 
     public void BeerCupInstantiator()
     {
-        _cupPos = transform.position;
-        _cupPos.y = _cupPos.y + .05f;
-        _object.transform.position = _cupPos;
+        _object.transform.position = transform.position;
         _object.SetActive(true);
         this.gameObject.SetActive(false);
         
