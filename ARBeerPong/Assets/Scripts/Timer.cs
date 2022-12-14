@@ -16,7 +16,7 @@ public class Timer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timer = 60;
+        timer = 90;
         timerText.text = "Time left : "+timer.ToString("00")+" sec";
     }
 
