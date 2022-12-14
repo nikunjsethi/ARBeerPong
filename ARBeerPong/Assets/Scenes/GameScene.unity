@@ -246,45 +246,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _raycastManager: {fileID: 1691698424}
   _target: {fileID: 785550375}
-  _object: {fileID: 1436685677}
+  _object: {fileID: 974772316}
   CameraBtn: {fileID: 1780294148}
   Score: {fileID: 295444639}
   Timer: {fileID: 431902475}
   _timerScript: {fileID: 443521797}
---- !u!1 &69662320
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 69662321}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &69662321
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69662320}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1045414232}
-  - {fileID: 1377757952}
-  - {fileID: 445112040}
-  m_Father: {fileID: 1436685678}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &184409139
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,632 +547,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295444639}
   m_CullTransparentMesh: 1
---- !u!1001 &301692060
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1436685678}
-    m_Modifications:
-    - target: {fileID: 121333438827335569, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Size.z
-      value: 0.49864426
-      objectReference: {fileID: 0}
-    - target: {fileID: 121333438827335569, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.x
-      value: 9.666267e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: 121333438827335569, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.y
-      value: 0.00000008108653
-      objectReference: {fileID: 0}
-    - target: {fileID: 121333438827335569, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.z
-      value: -0.2506759
-      objectReference: {fileID: 0}
-    - target: {fileID: 979874485874124428, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Size.z
-      value: 0.49864426
-      objectReference: {fileID: 0}
-    - target: {fileID: 979874485874124428, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.x
-      value: 9.666267e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: 979874485874124428, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.y
-      value: 0.00000008108653
-      objectReference: {fileID: 0}
-    - target: {fileID: 979874485874124428, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.z
-      value: -0.2506759
-      objectReference: {fileID: 0}
-    - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0017
-      objectReference: {fileID: 0}
-    - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.1153
-      objectReference: {fileID: 0}
-    - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2611599202721301002, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Size.z
-      value: 0.49864426
-      objectReference: {fileID: 0}
-    - target: {fileID: 2611599202721301002, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.x
-      value: 9.666267e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: 2611599202721301002, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.y
-      value: 0.00000008108653
-      objectReference: {fileID: 0}
-    - target: {fileID: 2611599202721301002, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.z
-      value: -0.2506759
-      objectReference: {fileID: 0}
-    - target: {fileID: 4222364191246351175, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _timer
-      value: 
-      objectReference: {fileID: 443521797}
-    - target: {fileID: 4222364191246351175, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: scoreUI
-      value: 
-      objectReference: {fileID: 295444641}
-    - target: {fileID: 4222364191246351175, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: uiCamera
-      value: 
-      objectReference: {fileID: 184409139}
-    - target: {fileID: 4222364191246351175, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: winCanvas
-      value: 
-      objectReference: {fileID: 983470409}
-    - target: {fileID: 4222364191246351175, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: loseCanvas
-      value: 
-      objectReference: {fileID: 912107671}
-    - target: {fileID: 4222364191246351175, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: mainCanvas
-      value: 
-      objectReference: {fileID: 404048210}
-    - target: {fileID: 4222364191246351175, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _ballManager
-      value: 
-      objectReference: {fileID: 1661774108}
-    - target: {fileID: 4222364191246351175, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4222364191246351175, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[0]
-      value: 
-      objectReference: {fileID: 1691698420}
-    - target: {fileID: 4222364191246351175, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[1]
-      value: 
-      objectReference: {fileID: 1276349799}
-    - target: {fileID: 4845266778347896657, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _timer
-      value: 
-      objectReference: {fileID: 443521797}
-    - target: {fileID: 4845266778347896657, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: scoreUI
-      value: 
-      objectReference: {fileID: 295444641}
-    - target: {fileID: 4845266778347896657, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: uiCamera
-      value: 
-      objectReference: {fileID: 184409139}
-    - target: {fileID: 4845266778347896657, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: winCanvas
-      value: 
-      objectReference: {fileID: 983470409}
-    - target: {fileID: 4845266778347896657, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: loseCanvas
-      value: 
-      objectReference: {fileID: 912107671}
-    - target: {fileID: 4845266778347896657, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: mainCanvas
-      value: 
-      objectReference: {fileID: 404048210}
-    - target: {fileID: 4845266778347896657, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _ballManager
-      value: 
-      objectReference: {fileID: 1661774108}
-    - target: {fileID: 4845266778347896657, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4845266778347896657, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[0]
-      value: 
-      objectReference: {fileID: 1691698420}
-    - target: {fileID: 4845266778347896657, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[1]
-      value: 
-      objectReference: {fileID: 1276349799}
-    - target: {fileID: 6347338555624680285, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _timer
-      value: 
-      objectReference: {fileID: 443521797}
-    - target: {fileID: 6347338555624680285, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: scoreUI
-      value: 
-      objectReference: {fileID: 295444641}
-    - target: {fileID: 6347338555624680285, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: uiCamera
-      value: 
-      objectReference: {fileID: 184409139}
-    - target: {fileID: 6347338555624680285, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: winCanvas
-      value: 
-      objectReference: {fileID: 983470409}
-    - target: {fileID: 6347338555624680285, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: loseCanvas
-      value: 
-      objectReference: {fileID: 912107671}
-    - target: {fileID: 6347338555624680285, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: mainCanvas
-      value: 
-      objectReference: {fileID: 404048210}
-    - target: {fileID: 6347338555624680285, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _ballManager
-      value: 
-      objectReference: {fileID: 1661774108}
-    - target: {fileID: 6347338555624680285, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6347338555624680285, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[0]
-      value: 
-      objectReference: {fileID: 1691698420}
-    - target: {fileID: 6347338555624680285, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[1]
-      value: 
-      objectReference: {fileID: 1276349799}
-    - target: {fileID: 7101190700854835643, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Size.z
-      value: 0.49864426
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190700854835643, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.x
-      value: 9.666267e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190700854835643, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.y
-      value: 0.00000008108653
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190700854835643, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.z
-      value: -0.2506759
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190700854835646, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _timer
-      value: 
-      objectReference: {fileID: 443521797}
-    - target: {fileID: 7101190700854835646, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: scoreUI
-      value: 
-      objectReference: {fileID: 295444641}
-    - target: {fileID: 7101190700854835646, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: uiCamera
-      value: 
-      objectReference: {fileID: 184409139}
-    - target: {fileID: 7101190700854835646, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: winCanvas
-      value: 
-      objectReference: {fileID: 983470409}
-    - target: {fileID: 7101190700854835646, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: loseCanvas
-      value: 
-      objectReference: {fileID: 912107671}
-    - target: {fileID: 7101190700854835646, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: mainCanvas
-      value: 
-      objectReference: {fileID: 404048210}
-    - target: {fileID: 7101190700854835646, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _ballManager
-      value: 
-      objectReference: {fileID: 1661774108}
-    - target: {fileID: 7101190700854835646, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190700854835646, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[0]
-      value: 
-      objectReference: {fileID: 1691698420}
-    - target: {fileID: 7101190700854835646, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[1]
-      value: 
-      objectReference: {fileID: 1276349799}
-    - target: {fileID: 7101190701284804936, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _timer
-      value: 
-      objectReference: {fileID: 443521797}
-    - target: {fileID: 7101190701284804936, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: scoreUI
-      value: 
-      objectReference: {fileID: 295444641}
-    - target: {fileID: 7101190701284804936, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: uiCamera
-      value: 
-      objectReference: {fileID: 184409139}
-    - target: {fileID: 7101190701284804936, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: winCanvas
-      value: 
-      objectReference: {fileID: 983470409}
-    - target: {fileID: 7101190701284804936, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: loseCanvas
-      value: 
-      objectReference: {fileID: 912107671}
-    - target: {fileID: 7101190701284804936, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: mainCanvas
-      value: 
-      objectReference: {fileID: 404048210}
-    - target: {fileID: 7101190701284804936, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _ballManager
-      value: 
-      objectReference: {fileID: 1661774108}
-    - target: {fileID: 7101190701284804936, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190701284804936, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[0]
-      value: 
-      objectReference: {fileID: 1691698420}
-    - target: {fileID: 7101190701284804936, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[1]
-      value: 
-      objectReference: {fileID: 1276349799}
-    - target: {fileID: 7101190701284804981, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Size.z
-      value: 0.49864426
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190701284804981, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.x
-      value: 9.666267e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190701284804981, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.y
-      value: 0.00000008108653
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190701284804981, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.z
-      value: -0.2506759
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190701745613904, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Size.z
-      value: 0.49864426
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190701745613904, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.x
-      value: 9.666267e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190701745613904, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.y
-      value: 0.00000008108653
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190701745613904, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.z
-      value: -0.2506759
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190701745613911, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _timer
-      value: 
-      objectReference: {fileID: 443521797}
-    - target: {fileID: 7101190701745613911, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: scoreUI
-      value: 
-      objectReference: {fileID: 295444641}
-    - target: {fileID: 7101190701745613911, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: uiCamera
-      value: 
-      objectReference: {fileID: 184409139}
-    - target: {fileID: 7101190701745613911, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: winCanvas
-      value: 
-      objectReference: {fileID: 983470409}
-    - target: {fileID: 7101190701745613911, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: loseCanvas
-      value: 
-      objectReference: {fileID: 912107671}
-    - target: {fileID: 7101190701745613911, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: mainCanvas
-      value: 
-      objectReference: {fileID: 404048210}
-    - target: {fileID: 7101190701745613911, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _ballManager
-      value: 
-      objectReference: {fileID: 1661774108}
-    - target: {fileID: 7101190701745613911, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190701745613911, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[0]
-      value: 
-      objectReference: {fileID: 1691698420}
-    - target: {fileID: 7101190701745613911, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[1]
-      value: 
-      objectReference: {fileID: 1276349799}
-    - target: {fileID: 7101190702050680552, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Size.z
-      value: 0.49864426
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190702050680552, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.x
-      value: 9.666267e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190702050680552, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.y
-      value: 0.00000008108653
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190702050680552, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.z
-      value: -0.2506759
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190702050680559, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _timer
-      value: 
-      objectReference: {fileID: 443521797}
-    - target: {fileID: 7101190702050680559, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: scoreUI
-      value: 
-      objectReference: {fileID: 295444641}
-    - target: {fileID: 7101190702050680559, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: uiCamera
-      value: 
-      objectReference: {fileID: 184409139}
-    - target: {fileID: 7101190702050680559, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: winCanvas
-      value: 
-      objectReference: {fileID: 983470409}
-    - target: {fileID: 7101190702050680559, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: loseCanvas
-      value: 
-      objectReference: {fileID: 912107671}
-    - target: {fileID: 7101190702050680559, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: mainCanvas
-      value: 
-      objectReference: {fileID: 404048210}
-    - target: {fileID: 7101190702050680559, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _ballManager
-      value: 
-      objectReference: {fileID: 1661774108}
-    - target: {fileID: 7101190702050680559, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190702050680559, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[0]
-      value: 
-      objectReference: {fileID: 1691698420}
-    - target: {fileID: 7101190702050680559, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[1]
-      value: 
-      objectReference: {fileID: 1276349799}
-    - target: {fileID: 7101190702257740074, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _timer
-      value: 
-      objectReference: {fileID: 443521797}
-    - target: {fileID: 7101190702257740074, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: scoreUI
-      value: 
-      objectReference: {fileID: 295444641}
-    - target: {fileID: 7101190702257740074, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: uiCamera
-      value: 
-      objectReference: {fileID: 184409139}
-    - target: {fileID: 7101190702257740074, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: winCanvas
-      value: 
-      objectReference: {fileID: 983470409}
-    - target: {fileID: 7101190702257740074, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: loseCanvas
-      value: 
-      objectReference: {fileID: 912107671}
-    - target: {fileID: 7101190702257740074, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: mainCanvas
-      value: 
-      objectReference: {fileID: 404048210}
-    - target: {fileID: 7101190702257740074, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _ballManager
-      value: 
-      objectReference: {fileID: 1661774108}
-    - target: {fileID: 7101190702257740074, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190702257740074, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[0]
-      value: 
-      objectReference: {fileID: 1691698420}
-    - target: {fileID: 7101190702257740074, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[1]
-      value: 
-      objectReference: {fileID: 1276349799}
-    - target: {fileID: 7101190702257740119, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Size.z
-      value: 0.49864426
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190702257740119, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.x
-      value: 9.666267e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190702257740119, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.y
-      value: 0.00000008108653
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190702257740119, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.z
-      value: -0.2506759
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190702591473232, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _timer
-      value: 
-      objectReference: {fileID: 443521797}
-    - target: {fileID: 7101190702591473232, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: scoreUI
-      value: 
-      objectReference: {fileID: 295444641}
-    - target: {fileID: 7101190702591473232, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: uiCamera
-      value: 
-      objectReference: {fileID: 184409139}
-    - target: {fileID: 7101190702591473232, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: winCanvas
-      value: 
-      objectReference: {fileID: 983470409}
-    - target: {fileID: 7101190702591473232, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: loseCanvas
-      value: 
-      objectReference: {fileID: 912107671}
-    - target: {fileID: 7101190702591473232, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: mainCanvas
-      value: 
-      objectReference: {fileID: 404048210}
-    - target: {fileID: 7101190702591473232, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _ballManager
-      value: 
-      objectReference: {fileID: 1661774108}
-    - target: {fileID: 7101190702591473232, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190702591473232, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[0]
-      value: 
-      objectReference: {fileID: 1691698420}
-    - target: {fileID: 7101190702591473232, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[1]
-      value: 
-      objectReference: {fileID: 1276349799}
-    - target: {fileID: 7101190702591473245, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Size.z
-      value: 0.49864426
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190702591473245, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.x
-      value: 9.666267e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190702591473245, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.y
-      value: 0.00000008108653
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101190702591473245, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.z
-      value: -0.2506759
-      objectReference: {fileID: 0}
-    - target: {fileID: 7202793570533765271, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Name
-      value: Cups
-      objectReference: {fileID: 0}
-    - target: {fileID: 7202793570533765271, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7299677704211263096, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Size.z
-      value: 0.49864426
-      objectReference: {fileID: 0}
-    - target: {fileID: 7299677704211263096, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.x
-      value: 9.666267e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: 7299677704211263096, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.y
-      value: 0.00000008108653
-      objectReference: {fileID: 0}
-    - target: {fileID: 7299677704211263096, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: m_Center.z
-      value: -0.2506759
-      objectReference: {fileID: 0}
-    - target: {fileID: 8376391047265568346, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _timer
-      value: 
-      objectReference: {fileID: 443521797}
-    - target: {fileID: 8376391047265568346, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: scoreUI
-      value: 
-      objectReference: {fileID: 295444641}
-    - target: {fileID: 8376391047265568346, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: uiCamera
-      value: 
-      objectReference: {fileID: 184409139}
-    - target: {fileID: 8376391047265568346, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: winCanvas
-      value: 
-      objectReference: {fileID: 983470409}
-    - target: {fileID: 8376391047265568346, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: loseCanvas
-      value: 
-      objectReference: {fileID: 912107671}
-    - target: {fileID: 8376391047265568346, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: mainCanvas
-      value: 
-      objectReference: {fileID: 404048210}
-    - target: {fileID: 8376391047265568346, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: _ballManager
-      value: 
-      objectReference: {fileID: 1661774108}
-    - target: {fileID: 8376391047265568346, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8376391047265568346, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[0]
-      value: 
-      objectReference: {fileID: 1691698420}
-    - target: {fileID: 8376391047265568346, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-      propertyPath: arCamerasToDisable.Array.data[1]
-      value: 
-      objectReference: {fileID: 1276349799}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
---- !u!4 &301692061 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2518493685468054251, guid: 2452e96c4e1b0674aaf9edbb0339a3e8, type: 3}
-  m_PrefabInstance: {fileID: 301692060}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &339486043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1745,72 +1085,6 @@ MonoBehaviour:
   timer: 0
   timeOver: 0
   win: 0
---- !u!1001 &445112039
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 69662321}
-    m_Modifications:
-    - target: {fileID: 3795065132076994779, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_Name
-      value: CupEmpty (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3795065132076994779, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_TagString
-      value: Cup
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
---- !u!4 &445112040 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-  m_PrefabInstance: {fileID: 445112039}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &483117765
 GameObject:
   m_ObjectHideFlags: 0
@@ -2363,67 +1637,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d12a903f05e70e4288e41dea32ee161, type: 3}
---- !u!1001 &748829660
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1377757952}
-    m_Modifications:
-    - target: {fileID: 3905972299026924687, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924722, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_Name
-      value: InsideCup
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
 --- !u!1 &785550375
 GameObject:
   m_ObjectHideFlags: 0
@@ -2613,6 +1826,468 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &974772315
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7641756189738972, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _timer
+      value: 
+      objectReference: {fileID: 443521797}
+    - target: {fileID: 7641756189738972, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: scoreUI
+      value: 
+      objectReference: {fileID: 295444641}
+    - target: {fileID: 7641756189738972, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: uiCamera
+      value: 
+      objectReference: {fileID: 184409139}
+    - target: {fileID: 7641756189738972, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: winCanvas
+      value: 
+      objectReference: {fileID: 983470409}
+    - target: {fileID: 7641756189738972, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: loseCanvas
+      value: 
+      objectReference: {fileID: 912107671}
+    - target: {fileID: 7641756189738972, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: mainCanvas
+      value: 
+      objectReference: {fileID: 404048210}
+    - target: {fileID: 7641756189738972, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
+    - target: {fileID: 7641756189738972, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[0]
+      value: 
+      objectReference: {fileID: 1691698420}
+    - target: {fileID: 7641756189738972, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[1]
+      value: 
+      objectReference: {fileID: 1276349799}
+    - target: {fileID: 7641756209851824, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _timer
+      value: 
+      objectReference: {fileID: 443521797}
+    - target: {fileID: 7641756209851824, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: scoreUI
+      value: 
+      objectReference: {fileID: 295444641}
+    - target: {fileID: 7641756209851824, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: uiCamera
+      value: 
+      objectReference: {fileID: 184409139}
+    - target: {fileID: 7641756209851824, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: winCanvas
+      value: 
+      objectReference: {fileID: 983470409}
+    - target: {fileID: 7641756209851824, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: loseCanvas
+      value: 
+      objectReference: {fileID: 912107671}
+    - target: {fileID: 7641756209851824, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: mainCanvas
+      value: 
+      objectReference: {fileID: 404048210}
+    - target: {fileID: 7641756209851824, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
+    - target: {fileID: 7641756209851824, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[0]
+      value: 
+      objectReference: {fileID: 1691698420}
+    - target: {fileID: 7641756209851824, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[1]
+      value: 
+      objectReference: {fileID: 1276349799}
+    - target: {fileID: 7641756408854705, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _timer
+      value: 
+      objectReference: {fileID: 443521797}
+    - target: {fileID: 7641756408854705, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: scoreUI
+      value: 
+      objectReference: {fileID: 295444641}
+    - target: {fileID: 7641756408854705, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: uiCamera
+      value: 
+      objectReference: {fileID: 184409139}
+    - target: {fileID: 7641756408854705, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: winCanvas
+      value: 
+      objectReference: {fileID: 983470409}
+    - target: {fileID: 7641756408854705, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: loseCanvas
+      value: 
+      objectReference: {fileID: 912107671}
+    - target: {fileID: 7641756408854705, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: mainCanvas
+      value: 
+      objectReference: {fileID: 404048210}
+    - target: {fileID: 7641756408854705, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
+    - target: {fileID: 7641756408854705, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[0]
+      value: 
+      objectReference: {fileID: 1691698420}
+    - target: {fileID: 7641756408854705, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[1]
+      value: 
+      objectReference: {fileID: 1276349799}
+    - target: {fileID: 7641756582087307, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _timer
+      value: 
+      objectReference: {fileID: 443521797}
+    - target: {fileID: 7641756582087307, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: scoreUI
+      value: 
+      objectReference: {fileID: 295444641}
+    - target: {fileID: 7641756582087307, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: uiCamera
+      value: 
+      objectReference: {fileID: 184409139}
+    - target: {fileID: 7641756582087307, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: winCanvas
+      value: 
+      objectReference: {fileID: 983470409}
+    - target: {fileID: 7641756582087307, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: loseCanvas
+      value: 
+      objectReference: {fileID: 912107671}
+    - target: {fileID: 7641756582087307, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: mainCanvas
+      value: 
+      objectReference: {fileID: 404048210}
+    - target: {fileID: 7641756582087307, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
+    - target: {fileID: 7641756582087307, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[0]
+      value: 
+      objectReference: {fileID: 1691698420}
+    - target: {fileID: 7641756582087307, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[1]
+      value: 
+      objectReference: {fileID: 1276349799}
+    - target: {fileID: 7641757279225759, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _timer
+      value: 
+      objectReference: {fileID: 443521797}
+    - target: {fileID: 7641757279225759, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: scoreUI
+      value: 
+      objectReference: {fileID: 295444641}
+    - target: {fileID: 7641757279225759, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: uiCamera
+      value: 
+      objectReference: {fileID: 184409139}
+    - target: {fileID: 7641757279225759, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: winCanvas
+      value: 
+      objectReference: {fileID: 983470409}
+    - target: {fileID: 7641757279225759, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: loseCanvas
+      value: 
+      objectReference: {fileID: 912107671}
+    - target: {fileID: 7641757279225759, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: mainCanvas
+      value: 
+      objectReference: {fileID: 404048210}
+    - target: {fileID: 7641757279225759, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
+    - target: {fileID: 7641757279225759, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[0]
+      value: 
+      objectReference: {fileID: 1691698420}
+    - target: {fileID: 7641757279225759, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[1]
+      value: 
+      objectReference: {fileID: 1276349799}
+    - target: {fileID: 7641757372891355, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _timer
+      value: 
+      objectReference: {fileID: 443521797}
+    - target: {fileID: 7641757372891355, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: scoreUI
+      value: 
+      objectReference: {fileID: 295444641}
+    - target: {fileID: 7641757372891355, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: uiCamera
+      value: 
+      objectReference: {fileID: 184409139}
+    - target: {fileID: 7641757372891355, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: winCanvas
+      value: 
+      objectReference: {fileID: 983470409}
+    - target: {fileID: 7641757372891355, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: loseCanvas
+      value: 
+      objectReference: {fileID: 912107671}
+    - target: {fileID: 7641757372891355, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: mainCanvas
+      value: 
+      objectReference: {fileID: 404048210}
+    - target: {fileID: 7641757372891355, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
+    - target: {fileID: 7641757372891355, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[0]
+      value: 
+      objectReference: {fileID: 1691698420}
+    - target: {fileID: 7641757372891355, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[1]
+      value: 
+      objectReference: {fileID: 1276349799}
+    - target: {fileID: 7641757457176921, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _timer
+      value: 
+      objectReference: {fileID: 443521797}
+    - target: {fileID: 7641757457176921, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: scoreUI
+      value: 
+      objectReference: {fileID: 295444641}
+    - target: {fileID: 7641757457176921, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: uiCamera
+      value: 
+      objectReference: {fileID: 184409139}
+    - target: {fileID: 7641757457176921, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: winCanvas
+      value: 
+      objectReference: {fileID: 983470409}
+    - target: {fileID: 7641757457176921, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: loseCanvas
+      value: 
+      objectReference: {fileID: 912107671}
+    - target: {fileID: 7641757457176921, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: mainCanvas
+      value: 
+      objectReference: {fileID: 404048210}
+    - target: {fileID: 7641757457176921, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
+    - target: {fileID: 7641757457176921, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[0]
+      value: 
+      objectReference: {fileID: 1691698420}
+    - target: {fileID: 7641757457176921, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[1]
+      value: 
+      objectReference: {fileID: 1276349799}
+    - target: {fileID: 7641757674055842, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _timer
+      value: 
+      objectReference: {fileID: 443521797}
+    - target: {fileID: 7641757674055842, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: scoreUI
+      value: 
+      objectReference: {fileID: 295444641}
+    - target: {fileID: 7641757674055842, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: uiCamera
+      value: 
+      objectReference: {fileID: 184409139}
+    - target: {fileID: 7641757674055842, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: winCanvas
+      value: 
+      objectReference: {fileID: 983470409}
+    - target: {fileID: 7641757674055842, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: loseCanvas
+      value: 
+      objectReference: {fileID: 912107671}
+    - target: {fileID: 7641757674055842, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: mainCanvas
+      value: 
+      objectReference: {fileID: 404048210}
+    - target: {fileID: 7641757674055842, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
+    - target: {fileID: 7641757674055842, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[0]
+      value: 
+      objectReference: {fileID: 1691698420}
+    - target: {fileID: 7641757674055842, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[1]
+      value: 
+      objectReference: {fileID: 1276349799}
+    - target: {fileID: 7641757680765257, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _timer
+      value: 
+      objectReference: {fileID: 443521797}
+    - target: {fileID: 7641757680765257, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: scoreUI
+      value: 
+      objectReference: {fileID: 295444641}
+    - target: {fileID: 7641757680765257, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: uiCamera
+      value: 
+      objectReference: {fileID: 184409139}
+    - target: {fileID: 7641757680765257, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: winCanvas
+      value: 
+      objectReference: {fileID: 983470409}
+    - target: {fileID: 7641757680765257, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: loseCanvas
+      value: 
+      objectReference: {fileID: 912107671}
+    - target: {fileID: 7641757680765257, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: mainCanvas
+      value: 
+      objectReference: {fileID: 404048210}
+    - target: {fileID: 7641757680765257, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
+    - target: {fileID: 7641757680765257, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[0]
+      value: 
+      objectReference: {fileID: 1691698420}
+    - target: {fileID: 7641757680765257, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[1]
+      value: 
+      objectReference: {fileID: 1276349799}
+    - target: {fileID: 7641758005858535, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _timer
+      value: 
+      objectReference: {fileID: 443521797}
+    - target: {fileID: 7641758005858535, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: scoreUI
+      value: 
+      objectReference: {fileID: 295444641}
+    - target: {fileID: 7641758005858535, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: uiCamera
+      value: 
+      objectReference: {fileID: 184409139}
+    - target: {fileID: 7641758005858535, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: winCanvas
+      value: 
+      objectReference: {fileID: 983470409}
+    - target: {fileID: 7641758005858535, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: loseCanvas
+      value: 
+      objectReference: {fileID: 912107671}
+    - target: {fileID: 7641758005858535, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: mainCanvas
+      value: 
+      objectReference: {fileID: 404048210}
+    - target: {fileID: 7641758005858535, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
+    - target: {fileID: 7641758005858535, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[0]
+      value: 
+      objectReference: {fileID: 1691698420}
+    - target: {fileID: 7641758005858535, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[1]
+      value: 
+      objectReference: {fileID: 1276349799}
+    - target: {fileID: 7641758072638318, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _timer
+      value: 
+      objectReference: {fileID: 443521797}
+    - target: {fileID: 7641758072638318, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: scoreUI
+      value: 
+      objectReference: {fileID: 295444641}
+    - target: {fileID: 7641758072638318, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: uiCamera
+      value: 
+      objectReference: {fileID: 184409139}
+    - target: {fileID: 7641758072638318, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: winCanvas
+      value: 
+      objectReference: {fileID: 983470409}
+    - target: {fileID: 7641758072638318, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: loseCanvas
+      value: 
+      objectReference: {fileID: 912107671}
+    - target: {fileID: 7641758072638318, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: mainCanvas
+      value: 
+      objectReference: {fileID: 404048210}
+    - target: {fileID: 7641758072638318, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: _ballManager
+      value: 
+      objectReference: {fileID: 1661774108}
+    - target: {fileID: 7641758072638318, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[0]
+      value: 
+      objectReference: {fileID: 1691698420}
+    - target: {fileID: 7641758072638318, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: arCamerasToDisable.Array.data[1]
+      value: 
+      objectReference: {fileID: 1276349799}
+    - target: {fileID: 8856259841490274684, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_Name
+      value: BeerCups
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274684, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.127
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+--- !u!1 &974772316 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8856259841490274684, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+  m_PrefabInstance: {fileID: 974772315}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &983470409
 GameObject:
   m_ObjectHideFlags: 0
@@ -2718,72 +2393,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1001 &1045414231
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 69662321}
-    m_Modifications:
-    - target: {fileID: 3795065132076994779, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_Name
-      value: CupEmpty
-      objectReference: {fileID: 0}
-    - target: {fileID: 3795065132076994779, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_TagString
-      value: Cup
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.1018
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
---- !u!4 &1045414232 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-  m_PrefabInstance: {fileID: 1045414231}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1064897760
 GameObject:
   m_ObjectHideFlags: 0
@@ -2850,106 +2459,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1103402612
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1103402613}
-  - component: {fileID: 1103402616}
-  - component: {fileID: 1103402615}
-  - component: {fileID: 1103402614}
-  m_Layer: 0
-  m_Name: Plane
-  m_TagString: Floor
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1103402613
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103402612}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1000, y: 1000, z: 1000}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1436685678}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1103402614
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103402612}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1103402615
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103402612}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1103402616
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103402612}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1107382387
 GameObject:
   m_ObjectHideFlags: 0
@@ -3290,179 +2801,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357331757}
   m_CullTransparentMesh: 1
---- !u!1001 &1377757951
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 69662321}
-    m_Modifications:
-    - target: {fileID: 3795065132076994779, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_Name
-      value: CupEmpty (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3795065132076994779, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_TagString
-      value: Cup
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
---- !u!4 &1377757952 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4602985642817473121, guid: ccf3daf4ae19951419cec4b9514f1cc2, type: 3}
-  m_PrefabInstance: {fileID: 1377757951}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1436685677
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1436685678}
-  m_Layer: 0
-  m_Name: BeerCups
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1436685678
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1436685677}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 69662321}
-  - {fileID: 1103402613}
-  - {fileID: 301692061}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1553913381
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1045414232}
-    m_Modifications:
-    - target: {fileID: 3905972299026924687, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.047067143
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.13379
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.0667679
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924722, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_Name
-      value: InsideCup
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
 --- !u!1 &1632555997
 GameObject:
   m_ObjectHideFlags: 0
@@ -3853,7 +3191,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: w
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3880,7 +3218,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.75
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3930,67 +3268,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693285310}
   m_CullTransparentMesh: 1
---- !u!1001 &1695040964
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 445112040}
-    m_Modifications:
-    - target: {fileID: 3905972299026924687, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924721, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3905972299026924722, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
-      propertyPath: m_Name
-      value: InsideCup
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3f1f1bb11d4aa904ea505c558b1a8bc4, type: 3}
 --- !u!1 &1701188920
 GameObject:
   m_ObjectHideFlags: 0
@@ -4674,45 +3951,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1661774107}
     m_Modifications:
-    - target: {fileID: 2625555095136269365, guid: 3b1fe374849d827428e564714fc4c338, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: c26100d9606ed76428effa058bdf38a8, type: 2}
     - target: {fileID: 2696075888084232711, guid: 3b1fe374849d827428e564714fc4c338, type: 3}
       propertyPath: ballManager
       value: 
       objectReference: {fileID: 1661774108}
-    - target: {fileID: 2697735177105249641, guid: 3b1fe374849d827428e564714fc4c338, type: 3}
-      propertyPath: m_UseGravity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2697735177105249641, guid: 3b1fe374849d827428e564714fc4c338, type: 3}
-      propertyPath: m_IsKinematic
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2717315494777561057, guid: 3b1fe374849d827428e564714fc4c338, type: 3}
       propertyPath: m_Name
       value: MySphere
       objectReference: {fileID: 0}
-    - target: {fileID: 2717315494777561057, guid: 3b1fe374849d827428e564714fc4c338, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2719745531667441863, guid: 3b1fe374849d827428e564714fc4c338, type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2719745531667441863, guid: 3b1fe374849d827428e564714fc4c338, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2719745531667441863, guid: 3b1fe374849d827428e564714fc4c338, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2719745531667441863, guid: 3b1fe374849d827428e564714fc4c338, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2719745531667441863, guid: 3b1fe374849d827428e564714fc4c338, type: 3}
       propertyPath: m_LocalPosition.x

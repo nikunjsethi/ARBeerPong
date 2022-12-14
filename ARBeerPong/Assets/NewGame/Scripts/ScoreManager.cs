@@ -32,20 +32,23 @@ public class ScoreManager : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
 	{
-		// Nikunj Add Score Here
-		FindObjectOfType<AudioManager>().Play("HitInside");
-		Destroy(this.transform.parent.gameObject,1.5f);
-		scoreData++;
-		cupsDown++;
-		_timer.loseCupCount++;
-		scoreUI.text = "Score : "+scoreData.ToString();
-		Destroy(_ballManager._newBall.gameObject);
+		if (other.CompareTag("Ball"))
+		{
+			// Nikunj Add Score Here
+			FindObjectOfType<AudioManager>().Play("HitInside");
+			Destroy(this.transform.parent.gameObject, 1.5f);
+			scoreData++;
+			cupsDown++;
+			_timer.loseCupCount++;
+			scoreUI.text = "Score : " + scoreData.ToString();
+			Destroy(_ballManager._newBall.gameObject);
 
-		if(cupsDown>=2)
-        {
-			_timer.win = true;
-            StartCoroutine(WinUI());
-        }
+			if (cupsDown >= 10)
+			{
+				_timer.win = true;
+				StartCoroutine(WinUI());
+			}
+		}
 	}
 
 
