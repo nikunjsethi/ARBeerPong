@@ -17,7 +17,7 @@ public class Timer : MonoBehaviour
     void Start()
     {
         timer = 60;
-        timerText.text = timer.ToString("00");
+        timerText.text = "Time left : "+timer.ToString("00")+" sec";
     }
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class Timer : MonoBehaviour
         if (win == false)
         {
             timer -= Time.deltaTime;
-            timerText.text = timer.ToString("00");
+            timerText.text = "Time left : " + timer.ToString("00") + " sec";
             if (timer < 0)
             {
                 timeOver = true;
