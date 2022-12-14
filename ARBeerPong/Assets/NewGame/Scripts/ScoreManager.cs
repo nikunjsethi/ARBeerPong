@@ -37,19 +37,14 @@ public class ScoreManager : MonoBehaviour
 		Destroy(this.transform.parent.gameObject,1.5f);
 		scoreData++;
 		cupsDown++;
+		_timer.loseCupCount++;
 		scoreUI.text = "Score : "+scoreData.ToString();
 		Destroy(_ballManager._newBall.gameObject);
 
 		if(cupsDown>=2)
         {
+			_timer.win = true;
             StartCoroutine(WinUI());
-            //for (int i = 0; i < arCamerasToDisable.Length; i++)
-            //    arCamerasToDisable[i].SetActive(false);
-            //mainCanvas.SetActive(false);
-            //uiCamera.SetActive(true);
-            //winCanvas.SetActive(true);
-            //cupsDown = 0;
-            //scoreData = 0;
         }
 	}
 
@@ -68,7 +63,7 @@ public class ScoreManager : MonoBehaviour
 
 	IEnumerator LoseUI()
 	{
-		yield return new WaitForSeconds(0);
+		yield return new WaitForSeconds(1.2f);
 		for (int i = 0; i < arCamerasToDisable.Length; i++)
 			arCamerasToDisable[i].SetActive(false);
 		mainCanvas.SetActive(false);

@@ -7,24 +7,36 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
     public TextMeshProUGUI timerText;
+    public TextMeshProUGUI winTimerText;
+    public TextMeshProUGUI loseCupCountText;
+    public int loseCupCount;
     public float timer;
     public bool timeOver=false;
+    public bool win = false;
     // Start is called before the first frame update
     void Start()
     {
-        timer = 20;
-        timerText.text = timer.ToString();
+        timer = 60;
+        timerText.text = timer.ToString("00");
     }
 
     // Update is called once per frame
     void Update()
     {
-        timer-=Time.deltaTime;
-        timerText.text = timer.ToString();
-        if (timer<0)
+        if (win == false)
         {
-            timeOver = true;
-            timerText.text = 0.ToString();
+            timer -= Time.deltaTime;
+            timerText.text = timer.ToString("00");
+            if (timer < 0)
+            {
+                timeOver = true;
+                timerText.text = 0.ToString("00");
+                loseCupCountText.text = (10 - loseCupCount).ToString()+" cups left";
+            }
+        }
+        else
+        {
+            winTimerText.text = (60 - timer).ToString("00")+" sec";
         }
     }
 }
