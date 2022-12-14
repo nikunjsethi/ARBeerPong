@@ -57,6 +57,7 @@ public class TargetPlacement : MonoBehaviour
     public void BeerCupInstantiator()
     {
         _object.transform.position = transform.position;
+        _object.transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0));
         _object.SetActive(true);
         Score.SetActive(true);
         Timer.SetActive(true);
