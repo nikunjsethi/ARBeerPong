@@ -6,6 +6,7 @@ using TMPro;
 public class ScoreManager : MonoBehaviour
 {
 	public BallManager _ballManager;
+	public Timer _timer;
 	static float scoreData;
 	static float cupsDown;
 	[SerializeField] TextMeshProUGUI scoreUI;
@@ -20,37 +21,57 @@ public class ScoreManager : MonoBehaviour
 		scoreData = 0;
 		scoreUI.text = "Score : " + scoreData.ToString();
 	}
+
+    private void Update()
+    {
+		if(_timer.timeOver==true)
+        {
+			StartCoroutine(LoseUI());
+        }
+    }
+
     void OnTriggerEnter(Collider other)
 	{
-		// Nikunj Add Score Here
-		FindObjectOfType<AudioManager>().Play("HitInside");
-		Destroy(this.transform.parent.gameObject,1.5f);
-		scoreData++;
-		cupsDown++;
-		scoreUI.text = "Score : "+scoreData.ToString();
-		Destroy(_ballManager._newBall.gameObject);
+		if (other.CompareTag("Ball"))
+		{
+			// Nikunj Add Score Here
+			FindObjectOfType<AudioManager>().Play("HitInside");
+			Destroy(this.transform.parent.gameObject, 1.5f);
+			scoreData++;
+			cupsDown++;
+			_timer.loseCupCount++;
+			scoreUI.text = "Score : " + scoreData.ToString();
+			Destroy(_ballManager._newBall.gameObject);
 
-		if(cupsDown>=2)
-        {
-            StartCoroutine(ChangeUI());
-            //for (int i = 0; i < arCamerasToDisable.Length; i++)
-            //    arCamerasToDisable[i].SetActive(false);
-            //mainCanvas.SetActive(false);
-            //uiCamera.SetActive(true);
-            //winCanvas.SetActive(true);
-            //cupsDown = 0;
-            //scoreData = 0;
-        }
+			if (cupsDown >= 10)
+			{
+				_timer.win = true;
+				StartCoroutine(WinUI());
+			}
+		}
 	}
 
-	IEnumerator ChangeUI()
+
+	IEnumerator WinUI()
     {
-		yield return new WaitForSeconds(0f);
+		yield return new WaitForSeconds(1.4f);
 		for (int i = 0; i < arCamerasToDisable.Length; i++)
 			arCamerasToDisable[i].SetActive(false);
 		mainCanvas.SetActive(false);
 		uiCamera.SetActive(true);
 		winCanvas.SetActive(true);
+		cupsDown = 0;
+		scoreData = 0;
+	}
+
+	IEnumerator LoseUI()
+	{
+		yield return new WaitForSeconds(1.2f);
+		for (int i = 0; i < arCamerasToDisable.Length; i++)
+			arCamerasToDisable[i].SetActive(false);
+		mainCanvas.SetActive(false);
+		uiCamera.SetActive(true);
+		loseCanvas.SetActive(true);
 		cupsDown = 0;
 		scoreData = 0;
 	}
