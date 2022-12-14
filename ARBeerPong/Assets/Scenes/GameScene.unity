@@ -248,6 +248,9 @@ MonoBehaviour:
   _target: {fileID: 785550375}
   _object: {fileID: 1436685677}
   CameraBtn: {fileID: 1780294148}
+  Score: {fileID: 295444639}
+  Timer: {fileID: 431902475}
+  _timerScript: {fileID: 443521797}
 --- !u!1 &69662320
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,7 +463,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &295444640
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1460,7 +1463,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &431902476
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1730,7 +1733,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443521793}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65baf287c00e90b4eae74f975a109090, type: 3}
   m_Name: 

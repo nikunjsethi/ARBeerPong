@@ -16,6 +16,12 @@ public class TargetPlacement : MonoBehaviour
     private GameObject _object;
     [SerializeField]
     private GameObject CameraBtn;
+    [SerializeField]
+    private GameObject Score;
+    [SerializeField]
+    private GameObject Timer;
+    [SerializeField]
+    private Timer _timerScript;
     private Pose _hitPose;
     private List<ARRaycastHit> _hits = new List<ARRaycastHit>();
     private Vector2 _ray;
@@ -54,6 +60,9 @@ public class TargetPlacement : MonoBehaviour
         _cupPos.y = _cupPos.y + .05f;
         _object.transform.position = _cupPos;
         _object.SetActive(true);
+        Score.SetActive(true);
+        Timer.SetActive(true);
+        _timerScript.enabled = true;
         this.gameObject.SetActive(false);
         
     }

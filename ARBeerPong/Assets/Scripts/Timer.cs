@@ -30,7 +30,7 @@ public class Timer : MonoBehaviour
             if (timer < 0)
             {
                 timeOver = true;
-                timerText.text = 0.ToString("00");
+                timerText.text = "Time left : " + 0.ToString("00") + " sec";
                 loseCupCountText.text = (10 - loseCupCount).ToString()+" cups left";
             }
         }
