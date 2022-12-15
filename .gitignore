@@ -58,3 +58,9 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+ARBeerPong/Library/
+ARBeerPong/Logs/
+ARBeerPong/obj/
+ARBeerPong/test_BackUpThisFolder_ButDontShipItWithYourGame/
+ARBeerPong/arbeer_BackUpThisFolder_ButDontShipItWithYourGame/
+ARBeerPong/Temp/
