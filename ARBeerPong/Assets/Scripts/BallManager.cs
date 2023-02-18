@@ -24,7 +24,7 @@ public class BallManager : MonoBehaviour
     {
         _newBall.transform.parent = null; // need to remove parent after ball is thrown so it doesnt move with the camera
     }
-    /*
+    
     private void Update()
     {
         if (transform.childCount > 0)
@@ -44,6 +44,6 @@ public class BallManager : MonoBehaviour
             }
         }
 
-    }*/
+    }
 
 }

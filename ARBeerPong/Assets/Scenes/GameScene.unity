@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2207,6 +2207,18 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -2246,24 +2258,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8856259841831946852, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8856259841831946852, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8856259841831946852, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8856259841831946852, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8856259841831946853, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
-      propertyPath: m_IsActive
+    - target: {fileID: 8856259841831946852, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841831946852, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841831946852, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
