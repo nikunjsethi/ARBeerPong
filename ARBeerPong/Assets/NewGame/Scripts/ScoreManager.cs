@@ -50,7 +50,7 @@ public class ScoreManager : MonoBehaviour
 				StartCoroutine(WinUI());
 			}
 			Destroy(other.transform.gameObject);
-			Invoke("DestroyThis", 1f);
+			Invoke("DestroyThis", .5f);
 		}
 	}
 	void DestroyThis()
