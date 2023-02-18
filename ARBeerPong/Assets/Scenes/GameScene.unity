@@ -2198,9 +2198,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: BeerCups
       objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274684, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
       propertyPath: m_RootOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2241,6 +2257,22 @@ PrefabInstance:
     - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841490274687, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841831946852, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841831946852, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856259841831946852, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
@@ -2943,7 +2975,6 @@ MonoBehaviour:
   _ball: {fileID: 1626934521587989}
   _cups: {fileID: 974772316}
   _newBall: {fileID: 0}
-  dist: {fileID: 295444641}
 --- !u!1 &1674596336
 GameObject:
   m_ObjectHideFlags: 0
