@@ -15,8 +15,10 @@ public class ScoreManager : MonoBehaviour
 	[SerializeField] GameObject loseCanvas;
 	[SerializeField] GameObject[] arCamerasToDisable;
 	[SerializeField] GameObject uiCamera;
+	[SerializeField] GameObject particleEff;
 
-    private void Start()
+
+	private void Start()
     {
 		scoreData = 0;
 		scoreUI.text = "Score : " + scoreData.ToString();
@@ -36,22 +38,26 @@ public class ScoreManager : MonoBehaviour
 		{
 			// Nikunj Add Score Here
 			FindObjectOfType<AudioManager>().Play("HitInside");
-			Destroy(this.transform.parent.gameObject, 1.5f);
+			particleEff.SetActive(true);
 			scoreData++;
 			cupsDown++;
 			_timer.loseCupCount++;
 			scoreUI.text = "Score : " + scoreData.ToString();
-			Destroy(_ballManager._ballReleased.gameObject);
-
 
 			if (cupsDown >= 10)
 			{
 				_timer.win = true;
 				StartCoroutine(WinUI());
 			}
+			Destroy(other.transform.gameObject);
+			Invoke("DestroyThis", 1f);
 		}
 	}
+	void DestroyThis()
+    {
 
+		Destroy(this.transform.parent.gameObject, 1.5f);
+	}
 
 	IEnumerator WinUI()
     {

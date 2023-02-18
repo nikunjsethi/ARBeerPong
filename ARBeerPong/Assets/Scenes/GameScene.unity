@@ -2194,6 +2194,14 @@ PrefabInstance:
       propertyPath: arCamerasToDisable.Array.data[1]
       value: 
       objectReference: {fileID: 1276349799}
+    - target: {fileID: 1465081204128233762, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465081204818492165, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8856259841490274684, guid: 39a38defc844e7844a45fcfc8ec30b66, type: 3}
       propertyPath: m_Name
       value: BeerCups
@@ -2975,6 +2983,7 @@ MonoBehaviour:
   _ball: {fileID: 1626934521587989}
   _cups: {fileID: 974772316}
   _newBall: {fileID: 0}
+  _ballReleased: {fileID: 0}
 --- !u!1 &1674596336
 GameObject:
   m_ObjectHideFlags: 0
