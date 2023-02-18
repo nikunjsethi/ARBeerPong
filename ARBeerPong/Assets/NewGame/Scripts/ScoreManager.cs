@@ -41,7 +41,8 @@ public class ScoreManager : MonoBehaviour
 			cupsDown++;
 			_timer.loseCupCount++;
 			scoreUI.text = "Score : " + scoreData.ToString();
-			Destroy(_ballManager._newBall.gameObject);
+			Destroy(_ballManager._ballReleased.gameObject);
+
 
 			if (cupsDown >= 10)
 			{

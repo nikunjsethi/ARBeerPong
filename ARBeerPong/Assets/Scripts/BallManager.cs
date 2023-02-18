@@ -5,7 +5,7 @@ public class BallManager : MonoBehaviour
 {
     [SerializeField] private GameObject _ball;
     [SerializeField] private GameObject _cups;
-    [HideInInspector] public GameObject _newBall;
+    [HideInInspector] public GameObject _newBall, _ballReleased;
     private float _distance;
 
     public void SpawnBall()
@@ -22,7 +22,9 @@ public class BallManager : MonoBehaviour
 
     public void UnparentMe()
     {
-        _newBall.transform.parent = null; // need to remove parent after ball is thrown so it doesnt move with the camera
+        _newBall.transform.parent = null;
+        _ballReleased = _newBall;
+        // need to remove parent after ball is thrown so it doesnt move with the camera
     }
     
     private void Update()
